@@ -35,13 +35,13 @@
                 <form  method = "post" data-parsley-validate  action="verify/setado.php ">
                   <div data-mdb-input-init class="form-outline mb-4"> 
                     <label class="form-label "for="nome">Usuário</label>
-                    <input type="text" name="login" id="user" class="form-control" placeholder="name123" required>
+                    <input type="text" name="login" id="user" class="form-control" placeholder="Nome" required>
                    
                   </div>
 
                   <div data-mdb-input-init class="form-outline mb-4 position-relative" >
                     <label  class="form-label" for="password">Senha</label>
-                    <input type="password" name="senha" id="senha" placeholder="••••••••" class="form-control" required>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" class="form-control" required>
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
@@ -62,7 +62,7 @@
                 <h4 class="mb-4">Como Funciona o ServiceBell</h4>
                 <p class="small mb-0">O ServiceBell é um sistema de cadastro e contratação de serviços rapido e facil, 
                   agilizando o contato do trabalhador com o cliente
-                  por meio de infoormações visiveis aos usuários, proporcionando uma experiência de usuário intuitiva e eficiente.</p>
+                  por meio de informações visiveis aos usuários, proporcionando uma experiência de usuário intuitiva e eficiente.</p>
               </div>
             </div>
           </div>

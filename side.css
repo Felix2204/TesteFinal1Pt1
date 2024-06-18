@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #e3e9f7;
+}
+
+main{
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  padding-left: calc(82px + 20px);
+
+}
+
+#sidebar {
+  min-height: 100vh;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}

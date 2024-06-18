@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST['submit'])) {
-        if (isset($_POST['login']) && !empty($_POST['login']) && isset($_POST['senha']) && !empty($_POST['senha'])) {
+        if (isset($_POST['login']) && !empty($_POST['login']) && isset($_POST['senha']) && !empty($_POST['senha'])) { 
             
             session_start();
             require '../conexao.php';
@@ -21,10 +21,8 @@ if (isset($_POST['submit'])) {
                 $_SESSION['user'] = $dado['login'];
 
                header('Location: ../index.php');
-            
-            
             }else{
-                header('location: ../login.php');
+                header('location: ../login.php?errado');
             }
 
         }
